@@ -91,7 +91,9 @@ export default {
             :alt="game.title"
           />
           <h1 class="my-4 text-xl">{{ game.title }}</h1>
-          <p class="line-clamp-2" :title="game.short_description">{{ game.short_description }}</p>
+          <p class="line-clamp-2" :title="game.short_description">
+            {{ game.short_description }}
+          </p>
           <hr class="border-gray-200 my-4">
           <div class="flex flex-row">
             <div class="grow">
