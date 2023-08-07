@@ -1,4 +1,4 @@
-# live-frontend
+# Rapid Api Games test
 
 This template should help get you started developing with Vue 3 in Vite.
 
