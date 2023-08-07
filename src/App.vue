@@ -13,8 +13,8 @@ export default {
           'https://free-to-play-games-database.p.rapidapi.com/api/games',
           {
             headers: {
-              'X-RapidAPI-Key': '6ca948ceb7msh426f11ced47c1b7p13741cjsnf6f65942f5df',
-              'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
+              'X-RapidAPI-Key': import.meta.env.VITE_X_RAPIDAPI_KEY,
+              'X-RapidAPI-Host': import.meta.env.VITE_X_RAPIDAPI_HOST,
             }
           }
         );
